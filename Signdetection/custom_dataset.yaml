@@ -1,0 +1,60 @@
+
+
+
+
+train: D:/Vaibhav Hacker/Desktop/DS3 Project Tarzon/train_data/images/train 
+val: D:/Vaibhav Hacker/Desktop/DS3 Project Tarzon/train_data/images/val 
+
+
+
+#number of classes
+nc: 43
+# Classes
+names:
+  0: Speed Limit 20Km/hr
+  1: Speed Limit 30Km/hr
+  2: Speed Limit 50Km/hr
+  3: Speed Limit 60Km/hr
+  4: Speed Limit 70Km/hr
+  5: Speed Limit 80Km/hr
+  6: End of Speed Restriction
+  7: Speed Limit 100Km/hr
+  8: Speed Limit 120Km/hr
+  9: No Overtaking
+  10: No truck overtaking
+  11: Crossroads
+  12: yellow mark
+  13: Give way
+  14: stop and give way
+  15: No vehicle
+  16: No heavy vehicle
+  17: No Entry
+  18: Hidden Dip
+  19: Bend to Left
+  20: Bend to Right
+  21: Double bend first to left
+  22: Uneven Road
+  23: Slippery Road
+  24: Roads narrows on right
+  25: Roads Works
+  26: Traffic lights Ahead
+  27: Zebra Crossing
+  28: School Crossing Ahead
+  29: Cycle Route Ahead
+  30: Ice
+  31: Wild Animals
+  32: End Zone
+  33: Turn Right Ahead
+  34: Turn Left Ahead
+  35: Ahead only
+  36: Compulsory Ahead or Turn Right
+  37: Compulsory Ahead or Turn Left
+  38: Compulsory Keep Right
+  39: Compulsory Keep Left
+  40: Round About
+  41: Overtaking Allowed
+  42: Truck overtaking Allowed
+
+
+
+

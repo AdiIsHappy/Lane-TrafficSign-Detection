@@ -24,8 +24,8 @@ import os
 class Platform():
 
     def __init__(self) -> None:
-        self.weights = 'Signdetection/last.pt'
-        self.datafile = 'Signdetection/custom_dataset.yaml'
+        self.weights = os.path.abspath('Signdetection/last.pt')
+        self.datafile = os.path.abspath('Signdetection/custom_dataset.yaml')
         self.hel20 = "Helvetica 15 bold"
         self.hel14 = "Helvetica 10"
         self.aril8 = "Arial 8"

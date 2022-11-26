@@ -25,13 +25,14 @@ class Platform():
 
     def __init__(self) -> None:
         self.weights = os.path.abspath('Signdetection/last.pt')
-        self.datafile = os.path.abspath('Signdetection/custom_dataset.yaml')
+        self.datafile = os.path.abspath('Signdetection/yolov5/custom_small.yaml')
+
         self.hel20 = "Helvetica 15 bold"
         self.hel14 = "Helvetica 10"
         self.aril8 = "Arial 8"
         self.hel5 = "Helvetica 5"
-        self.file_dir = None
 
+        self.file_dir = None
         self.taskbar = None
         self.mode = None
         self.source = None
@@ -134,7 +135,7 @@ class Platform():
     def destroyall(self):
         if self.taskbar is not None:
             self.taskbar.destroy()
-            self.taskbar = None
+            self.taskbar = None 
         if self.mode is not None:
             self.mode.destroy()
             self.mode = None
